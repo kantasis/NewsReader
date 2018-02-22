@@ -4,36 +4,57 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="#111"
+
     >
 
-    <TextView
-        android:id="@+id/titleText"
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:visibility="visible"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="20dp"
-        android:textStyle="bold"
-        android:background="#000"
-        android:textColor="#fff"/>
+        android:orientation="horizontal"
+    >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/preview"
+            android:src="@drawable/paok1"
+        />
+
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_margin="5dp"
+                android:text="Title"
+            />
+
+
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/descriptionText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#222"
-        android:textColor="#fff"
-    />
+        android:text="Description"
+        android:layout_margin="5dp"
+        />
+
 
     <TextView
         android:id="@+id/linkText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="gone"
-        />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/colorAccent"
         android:visibility="gone"
         />
 
