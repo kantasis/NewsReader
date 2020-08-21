@@ -1,2 +1,3 @@
 /build
-app/src/main/res/values/private-*
+app/src/main/res/values/private_*
+app/src/main/res/*

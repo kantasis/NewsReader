@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="364dp"
+    android:width="364dp"
+    android:viewportHeight="600"
+    android:viewportWidth="600"
+    android:scaleType="fitXY"
+    >
+
+    <path
+        android:fillColor="#222"
+        android:pathData="M0,0 L 0,600 600,0 z" />
+    <path
+        android:fillColor="#444"
+        android:pathData="M600,0 L 600,600 0,600 z"
+        >
+
+    </path>
+
+    <path
+        android:fillColor="#996515"
+        android:pathData="M50,0 v500 l 50,-50 V 0 z" />
+    <path
+        android:fillColor="#996515"
+        android:pathData="M200,0 v350 l 50,-50 V 0 z" />
+    <path
+        android:fillColor="#996515"
+        android:pathData="M350,0 v200 l 50,-50 V 0 z" />
+    <path
+        android:fillColor="#996515"
+        android:pathData="M500,0 v50 l 50,-50 V 0 z" />
+
+    <path
+        android:fillColor="#000"
+        android:pathData="M40,0 v500 l 50,-50 V 0 z" />
+    <path
+        android:fillColor="#000"
+        android:pathData="M190,0 v350 l 50,-50 V 0 z" />
+    <path
+        android:fillColor="#000"
+        android:pathData="M340,0 v200 l 50,-50 V 0 z" />
+    <path
+        android:fillColor="#000"
+        android:pathData="M490,0 v50 l 50,-50 V 0 z" />
+
+    <group
+        android:pivotX="300.0"
+        android:pivotY="400.0"
+        android:rotation="0"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:translateX="340"
+        android:translateY="420">
+
+        <path
+            android:strokeColor="#996515"
+            android:strokeWidth="24"
+            android:pathData="M0,0 a50,60 0 1,1 100,0 a50,60 0 1,1 -100,0 m0,0 h100"
+            />
+
+        <path
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:pathData="M150,-60 v62 h60 v-62 v124"
+            android:strokeWidth="24"
+            android:strokeColor="#996515"
+            />
+
+        <path
+            android:strokeColor="#000"
+            android:strokeWidth="24"
+            android:pathData="M-3,-3 a50,60 0 1,1 100,0 a50,60 0 1,1 -100,0 m0,0 h100"
+            />
+
+        <path
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:pathData="M147,-63 v62 h60 v-62 v124"
+            android:strokeWidth="24"
+            android:strokeColor="#000"
+            />
+
+    </group>
+</vector>
+
+    <!--    a rx ry x-axis-rotation large-arc-flag sweep-flag dx dy     -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/story_background"
+    android:orientation="vertical"
+>
+
+    <ImageView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="20dp"
+    />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:text="Title"
+        android:textSize="18dp"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+
+        android:text="Την ανανέωση της συνεργασίας της με τον ταλαντούχο επιθετικό της Κ20 του Δικεφάλου, Ίλια Μαρκόφσκι ανακοίνωσε η ΠΑΕ ΠΑΟΚ, με τον νεαρό Ουκρανό ποδοσφαιριστή να βάζει την υπογραφή του σε συμβόλαιο τριετούς διάρκειας.
+    Αναλυτικά η ανακοίνωση της ΠΑΕ ΠΑΟΚ:
+    Η ΠΑΕ ΠΑΟΚ ανακοινώνει την ανανέωση του συμβολαίου του Ίλια Μαρκόφσκι μέχρι το 2021.
+    Ο νεαρός φορ αγωνίστηκε το δεύτερο εξάμηνο της σεζόν με την Κ20 του Δικεφάλου, πέτυχε οκτώ γκολ σε 11 συμμετοχές, μοίρασε δύο ασίστ και ήταν κομβικό..."
+        android:visibility="visible"
+    />
+
+    <TextView
+        android:id="@+id/story_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="paok.gr"
+        android:gravity="right"
+        android:visibility="visible"
+        />
+
+    <LinearLayout
+        android:id="@+id/storyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+    </LinearLayout>
+
+</LinearLayout>

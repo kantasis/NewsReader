@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#666"
+>
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Αν σας αρέσει η εφαρμοφή μας, πείτε ένα καλό λόγο για εμάς στο Play Store"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:padding="3dp"
+        android:layout_margin="5dp"
+    />
+
+    <Button
+        android:id="@+id/rateus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionText"
+        android:text="Αφήστε μία αξιολόγηση"
+        android:background="#333"
+        android:layout_margin="5dp"
+
+
+     />
+
+    <Button
+        android:id="@+id/later"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rateus"
+        android:text="Αργότερα"
+        android:background="#333"
+        android:layout_margin="5dp"
+     />
+
+    <Button
+        android:id="@+id/never"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/later"
+        android:text="Δε θέλω να αξιολογήσω"
+        android:background="#333"
+        android:layout_margin="5dp"
+    />
+
+
+
+
+</RelativeLayout>

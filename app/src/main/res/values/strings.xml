@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ΠΑΟΚΑΡΑ</string>
+    <string name="emptyText">Δεν υπάρχουν νέα προς το παρόν\nΠαρακαλώ δοκιμάστε αργότερα</string>
 </resources>
